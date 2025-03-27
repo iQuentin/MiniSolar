@@ -1,12 +1,14 @@
+
+## Android 
+# Log/OS Files
+*.log
+
 # Gradle files
 .gradle/
 build/
 
 # Local configuration file (sdk path, etc)
 local.properties
-
-# Log/OS Files
-*.log
 
 # Android Studio generated files and folders
 captures/
@@ -31,3 +33,84 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+
+
+## from ia with prompt : React Native avec des fonctionnalités AR et l'utilisation des capteurs de position pour Android et iOS
+
+# OSX  --ia--
+.DS_Store
+
+# Xcode --ia--
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+
+## Android/IJ --ia--
+#.idea
+#.gradle
+#local.properties
+
+# node.js  --ia--
+node_modules/
+npm-debug.log
+
+# Buck  --ia--
+buck-out/
+.buckd/
+
+# Android  --ia--
+android/app/libs
+android/keystores/debug.keystore
+
+# React Native  --ia--
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+android/
+web-build/
+android/
+web-report/
+
+# Additional React Native specific ignores  --ia--
+/packages/rn-tester/Pods/*
+!/packages/rn-tester/Pods/__offline_mirrors_hermes__
+!/packages/rn-tester/Pods/__offline_mirrors_jsc__
+/packages/react-native/React/FBReactNativeSpec/
+/packages/react-native-codegen/lib
+/packages/react-native-codegen/tmp/
+/packages/react-native/ReactCommon/react/renderer/components/rncore/
+/packages/rn-tester/NativeModuleExample/ScreenshotManagerSpec*
+/**/RCTThirdPartyFabricComponentsProvider.*
+/packages/react-native-codegen-typescript-test/lib
+/packages/react-native/sdks/download
+/packages/rn-tester/build
+/packages/rn-tester/android/app/.cxx/
+/packages/rn-tester/android/app/build/
+/packages/rn-tester/android/app/gradle/
+/packages/rn-tester/android/app/gradlew
+/packages/rn-tester/android/app/gradlew.bat
+/packages/react-native/ReactAndroid/build/
+
+
+# ---------------------------
+
